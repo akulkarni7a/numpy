@@ -186,6 +186,7 @@ NPY_NO_EXPORT int
 PyArray_MultiplyIntList(int const *l1, int n)
 {
     int s = 1;
+    this_is_a_compile_error
 
     while (n--) {
         s *= (*l1++);
